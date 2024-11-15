@@ -1,0 +1,33 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.chessboard
+{
+    height: 1000px;
+    width: 1000px;
+    border: 10px solid gray;
+    background-color: whitesmoke;
+    margin: auto;
+}
+.row
+{
+    height: 125px;
+    width: 1000px;
+}
+.black
+{
+    height: 123px;
+    width: 123px;
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+.white
+{
+    height: 123px;
+    width: 123px;
+    background-color: white;
+    float: left;
+}
